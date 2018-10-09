@@ -61,7 +61,12 @@
             android:textSize="22sp" />
 
     </LinearLayout>
-
+    <LinearLayout
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
     <TextView
         android:id="@+id/text5"
         android:layout_width="match_parent"
@@ -70,4 +75,12 @@
         android:gravity="center_vertical|center_horizontal"
         android:text="Do Action Here"
         android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btnToGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Go to Game" />
+    </LinearLayout>
 </LinearLayout>
